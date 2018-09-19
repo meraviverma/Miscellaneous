@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+ 
+  <!--
+  If you prefer to relocate your local repository to somewhere other than ~.m2/repository
+  then uncomment the <localrepository/> tag below and specify your location.
+  <localRepository>c:/relocated/maven/repository</localRepository>
+  -->
+
+<localRepository>C:/Users/rv00451128/.m2</localRepository> 
+ 
+<proxies>
+        <proxy>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>10.254.40.121</host>
+            <port>8080</port>
+            <!--
+            <username>proxyuser</username>
+            <password>somepassword</password>
+            <nonProxyHosts>*.yourdomain.com|*.yourOtherDomain.com</nonProxyHosts>
+            -->
+        </proxy>
+    </proxies>
+</settings>
